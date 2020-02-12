@@ -1,4 +1,4 @@
 GET /api/ping                       controllers.ApiController.ping
-
+POST /api/database                  controllers.ApiController.initDatabase
 GET /api/post/:postId               controllers.ApiController.getPost(postId: Int)
 GET /api/post/:postId/comment       controllers.ApiController.getComments(postId: Int)
